@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Commutatus_dup</title>
+    <script>
+        window.onload = function(){
+            document.getElementById("navid").style.right = '-260px' 
+        }
+        function togglebar(e){
+    e.classList.toggle("show");
+
+    var elem = document.getElementById("navid"),
+    Style = window.getComputedStyle(elem),
+    right = Style.getPropertyValue("right");
+
+    if(right == "0px"){
+        elem.style.right ="-260px";
+
+    }else{
+        elem.style.right = "0px";
+    }
+        }
+    
+    
+    </script>
+</head>
+<body>
+        <img src="/logo_2019.jpg" alt="logo" height="70" width="120">  
+    <section id="sec1" data-text="" ></section>
+    
+    <section id="sec2" data-text=""></section>
+    <section id="sec3" data-text=""></section>
+    <section id="sec4" data-text="">
+            <form action="submit.html">
+                Firstname: <input type="text" id="fname" name="firstname" placeholder="Your first name.."><br>
+                Lastname: <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                E-MAIL: <input type="text" name="Email" placeholder="Your Email.."><br>
+                <input type="submit" value="Submit">
+            </form>
+    </section>
+  
+        <div class="sidebar">
+              <nav class="navbar" id="navid" style="right: -260px">
+                    <button type="button" onclick="togglebar(this)" class="toggle-collapse show"  id="toggle-button">
+                      <span class="toggle-icon"></span>
+                </button>
+              
+            <ul class="side-nav">
+                <li class="nav-item">
+                    <a href="#sec1" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sec2" class="nav-link">WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sec3" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sec4" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+            </nav>
+        </div>
+       
+       
+              
+      
+       
+    
+    
+</body>
+</html>
