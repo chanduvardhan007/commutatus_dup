@@ -132,7 +132,7 @@ section:nth-child(3){
 section:nth-last-child(4){
     background: url(MyPost\(3\).png);
     background-position: center;
-    height: 2000px;
+    height: 1000px;
     background-size: 100%;
     top: 500%;
 
