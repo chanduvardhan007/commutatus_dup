@@ -1,5 +1,5 @@
 body {
-    background-image: url(/MyPost.png);
+    background-image: url(MyPost.png);
     background-position: top;
     height: 100px;
     background-size: 80%;
@@ -114,12 +114,12 @@ section{
 
 section:nth-child(1)
 {
-    background: url(/MyPost.png);
+    background: url(MyPost.png);
     height:80%;
 }
 
 section:nth-child(3){
-    background: url(/MyPost\(1\).png);
+    background: url(MyPost\(1\).png);
     background-position: center;
     height: 800px;
     background-size: 100%;
@@ -130,7 +130,7 @@ section:nth-child(3){
 }
 
 section:nth-last-child(4){
-    background: url(/MyPost\(3\).png);
+    background: url(MyPost\(3\).png);
     background-position: center;
     height: 1000px;
     background-size: 100%;
