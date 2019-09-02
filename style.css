@@ -114,7 +114,7 @@ section{
 
 section:nth-child(1)
 {
-    background: url(MyPost.png);
+    background: url(/MyPost.png);
     height:80%;
 }
 
@@ -135,7 +135,6 @@ section:nth-last-child(4){
     height: 1000px;
     background-size: 100%;
     top: 500%;
-
     background-repeat: no-repeat;
     
 }
