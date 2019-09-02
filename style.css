@@ -118,8 +118,8 @@ section:nth-child(1)
     height:80%;
 }
 
-section:nth-child(3){
-    background: url(MyPost\(1\).png);
+section:nth-last-child(3){
+    background: url(MyPost\(3\).png);
     background-position: center;
     height: 800px;
     background-size: 100%;
